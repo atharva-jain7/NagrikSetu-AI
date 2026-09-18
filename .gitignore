@@ -1,0 +1,51 @@
+# ==========================================
+# Environment & Secret Keys (DO NOT COMMIT)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.env
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Logs & Audit
+*.log
+backend/*.log
+backend/sent_sms.log
+backend/sent_emails.log
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+backend/civicpulse.db
+
+# Python
+__pycache__/
+*/__pycache__/
+backend/__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Node / Frontend Build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.eslintcache
+*.local
+
+# Operating System & Editors
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
